@@ -9,4 +9,4 @@
 * [远程协作](mac5/README.md)
 * [优质课程](mac6/README.md)
 * [家庭存储](mac7/README.md)
-* [高效使用](mac8/README.md)
+* [终端使用](mac8/README.md)
