@@ -4,7 +4,7 @@
 
 TE整个程序运行过程都在后台完成，Snippet（文本片段）可以用Group分组管理，不像iOS版那样仅支持有限的App，Mac客户端在英文输入法状态下可以在任意文本编辑器内调用，但在TE后台用户仍可以选择TE生效的程序范围：
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te9.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te9.png)
 
 ### 文本替换
 
@@ -12,7 +12,7 @@ TE只有一个核心功能，就是文本替换，无论是频繁输入的客套
 
   * 邮件
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te10.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te10.png)
 
 我使用TE最频繁的地方就是发邮件了，经常会收到来自业务和网站读者的信件，为了提高回复效率，必须使用TE，你可以将整个邮件信息（开头，正文，落款，联系方式）加入Snippet，在调用的时候输入缩写词（Abbreviation即可）。
 
@@ -22,19 +22,19 @@ TE只有一个核心功能，就是文本替换，无论是频繁输入的客套
 
 TE提供了丰富的时间信息格式，分Date、Time、Date/Time Math三组:
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te11.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te11.png)
 
 Date组提供了共10种格式的年月日输入方式，可以根据使用场景灵活调用：
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te12.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te12.png)
 
 Time组提供了共9种时刻模式
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te13.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te13.png)
 
 Snippet显示结果
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te14.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te14.png)
 
 Date / Time Math模式挺有意思，他可以对年月日等时间单位进行加减，以此输出跳跃计时的结果，比如我要记录一个14天之后的时刻，我可以这些书写内容：
 
@@ -42,19 +42,19 @@ Date / Time Math模式挺有意思，他可以对年月日等时间单位进行�
 
 2014八月星期六
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te15.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te15.png)
 
   * 指定路径
 
 平时经常用到一些Finder路径的话可以把他们收集起来，使用TE会节省许多时间
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te16.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te16.png)
 
   * HTML编辑
 
 这组Snippet是专为前端人员设计的，可以自定义各式各样的标签代码，这些Snippet都可以在窗口左下角的PreDefined Group里看到。
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te17.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te17.png)
 
   * Markdown
 
@@ -70,7 +70,7 @@ Date / Time Math模式挺有意思，他可以对年月日等时间单位进行�
 
 ##添加Snippet的方法
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te19.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te19.png)
 
 除了在窗口左上角点加号进入软件默认的Snippet编辑界面后，还能通过热键设定进入，如此之外你还能从以下入口添加Snippet
 
@@ -80,7 +80,7 @@ Date / Time Math模式挺有意思，他可以对年月日等时间单位进行�
 
 可能有朋友会问了，怎么把我自己创作的Snippet分享到网络呢？方法很简单，在TE系统内已经内置了Group导出功能，在Group列表上右键你就会发现这个选项：
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te20.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te20.png)
 
 选择“Save a Copy…”即可把Snippet Group以.textexpander为后缀保存到本地。
 
@@ -88,7 +88,7 @@ Date / Time Math模式挺有意思，他可以对年月日等时间单位进行�
 
 TE预置了9种具有代表性的Snippet组，前面我们也提到了其中一些，像Emoji，特殊字符等：
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te21.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te21.png)
 
   * 从PopClip插件中添加
 
@@ -100,27 +100,27 @@ Text Expander的变量扩展功能是将文本替换发扬广大的一项重要�
 
 这四项变量定义功能合称：“Fill-ins”，笼统的说其他Date、Time、Date/Time Math，Key、Clipbaord，图片，光标位置调整都属于变量自定义范畴。
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te23.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te23.png)
 
 比如，你在常用业务邮件里经常会对开头的称谓进行修改，每次使用固定的Snippet可能由于疏忽会把修改的事项漏掉，别冷笑，这绝对是我们经常遇到的，而使用变量扩展则会100%避免这个问题，如下图：
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te24.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te24.png)
 
 选择一段文本或一个单词，插入Single-line field，应用的时候你会看到一个弹出窗口，比如Dear后的称呼，我们改为变量扩展后，会在输入框留空，方便用户每次输入不同的称呼：
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te25.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te25.png)
 
 同理，其他变量形式也一样运用，像下图里，我们插入一个下拉菜单，每一项值（option x）可以双击进行自定义编辑。
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te26.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te26.png)
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te27.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te27.png)
 
 使用其他的变量扩展功能能让Snippet的威力更加强大，我们可以插入图片，改变光标位置，将最近剪切板的文本插入进来，或是插入已有的Snippet内容。
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te28.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te28.png)
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te29.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te29.png)
 
 ### Snippet联想
 
@@ -128,11 +128,11 @@ Text Expander的变量扩展功能是将文本替换发扬广大的一项重要�
 
 想要使用这项功能必须满足两个条件，一个是要为这些具备同类性质的Snippets设定至少包含相同的连续2个字符的Abbr（缩写词），如下图，这样当你输入“em”这两个字符后，联想菜单才能出现；
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te30.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te30.png)
 
 那第二个条件就是为联想菜单设定一个调用热键，我们可以在设置-Hotkeys里定义：
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te31.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te31.png)
 
 ### 支持Apple Script
 
@@ -148,21 +148,21 @@ return selectedGreeting
 
 我可以在邮件里插入随机的不同风格的敬语，TE的预配置Group里有一个叫做：“Internet Productivity Snippets”，可以创建不同服务下的短地址，比如bit.ly、digg、is.gd等，当你copy目标url后，执行相应Snippet，就会生成专门的短地址。
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te32.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te32.png)
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te33.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te33.png)
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te34.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te34.png)
 
 ### 数据统计，数据备份/还原等功能
 
 TE还设计了一个数据统计模块，可显示你利用Snippets编辑文本时所节省的字符数，节省的时间（可具体到小时），还提供了图标显示。
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te35.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te35.png)
 
 TE支持通过Dropbox与其他安装 Text Expander Touch 的 iOS 设备同步 Snippets 数据，同时还设计了自动备份服务，备份频率有小时，每天，每周，每月四项可选。
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te36.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te36.png)
 
 ## 参考资料
 
@@ -177,7 +177,7 @@ TE支持通过Dropbox与其他安装 Text Expander Touch 的 iOS 设备同步 Sn
 
 在我们介绍案例之前，我想为大家分享一下如何永久授权 TextExpander Helper 控制权限的技巧，上周就曾有朋友问过我，使用 TE 的时候总能接到以下提示：
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te1.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te1.png)
 
 每次打开 TE 都会弹出这样的提示框，让我们到「隐私-辅助功能」列表里对 TextExpander Helper 进行授权，这样 TE 才能发挥作用，可是列表里木有啊，对于这个问题，官方 Blog 就此问题给出了[解释](http://smilesoftware.com/blog/entry/yosemite-textexpander-and-accessibility-permission)，原因是 Yosemite 目前存在针对 Helper 文件的识别障碍，这种情况同样出现在了 Keyboard Maestro， Witch 等程序上。解决办法如下：
 
@@ -189,7 +189,7 @@ TE支持通过Dropbox与其他安装 Text Expander Touch 的 iOS 设备同步 Sn
 
 为以上步骤配一张图：
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te2.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te2.png)
 
 还有一种方法就是利用 Cocktail 等工具对 Launch Services 数据库进行重建，但小编并不打算在这里继续详说了。
 
@@ -199,7 +199,7 @@ TE支持通过Dropbox与其他安装 Text Expander Touch 的 iOS 设备同步 Sn
 
 这个问题算是老生常谈了，但对于刚刚接触 TE 的朋友来说还是非常非常重要的，新手上来肯定会抱怨 TE 在中文输入法下切换英文半角都不能让 Snippet 生效，因为 TE 在 3.3.4 就对此功能 Cut 掉了（这其中还包括大写字母自动纠正），原因是有些用户觉得这样会与他们自定义的组合键冲突，但也有一些用户不愿意频繁切换中英文输入法来调用 Snippet，所以官方推出了一个折中的方案，设计了一个名为「TEIMPrefSetter」的设定工具（[下载](http://smilesoftware.com/downloads/TEIMPrefSetter.zip)），里面包含了官方默认排除掉的一些输入法，将他们删除就能在其输入法半角状态下应用 Snippet 了，反之，加上对应的缩写字符（比如中文就是 zh）会回到排除状态。
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te3.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te3.png)
 
 注意，操作 TEIMPrefSetter 的前后需要进行：关闭 – 打开 TextExpander 程序。
 
@@ -249,9 +249,9 @@ end tell
 
 – 新建一个名为「Mail Only」的 Snippet Group，生效范围，也就是 Expand in 选择 「Only These Applications…」，在应用程序列表里只选择「Mail」，这样就确保我们这个 Snippet 只作用于 Mail 里。
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te4.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te4.png)
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te5.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te5.png)
 
 – 打开OS X 自带的脚本编辑器（AppleScript），代码区粘入：
 
@@ -264,7 +264,7 @@ end tell
 
 – 保存为 .app 后缀，文件名随意起，比如：AttachFilesKeystroke.app，把这个脚本程序保存在「应用程序」目录。
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te6.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te6.png)
 
 – 在 TE 的 Mail Only Snippet Group 里，新建一个 Snippet，类型选「AppleScript」，内容插入：
 
@@ -275,7 +275,7 @@ return "attached"
 
 – abbreviation 输入“attached”，Abbreviation type 选择 “Adapt to Case of Abbreviation” ，这样无论是 “Attached” 还是 “attached” 都能生效。
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te7.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te7.png)
 
 这样，当你在邮件正文输入 attached 时，TE 会自动运行 Snippet，弹出附件选择窗口，选择附件即可，退出窗口按 「ESC」键即可。
 
@@ -293,7 +293,7 @@ return "attached"
 
 整个Snippet展开后的模板样式请看这里：
 
-![](http://7q5cfr.com1.z0.glb.clouddn.com/@/TextExpander/te8.png)
+![](http://7q5cfr.com1.z0.glb.clouddn.com/@/te/te8.png)
 
 ### 格式化文本
 
