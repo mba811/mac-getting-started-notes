@@ -10,3 +10,5 @@
 * [优质课程](mac6/README.md)
 * [家庭存储](mac7/README.md)
 * [终端使用](mac8/README.md)
+* [最佳应用](mac9/README.md)
+  * [TextExpander](mac9/te/README.md)

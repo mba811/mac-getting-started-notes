@@ -213,3 +213,57 @@ return直接退出。
   * 没有输入任何命令时，你可以用▲和▼来浏览历史命令。同样可以编辑和再次执行。
   * 你也可以使用`history`命令查看历史记录。
   * 你可以使用组合键control + L清屏。
+
+## Mac 命令行
+
+在Mac上我们都是用App Store获得系统及自带工具的更新，不过使用命令行似乎更加快速简单：
+
+输入：
+
+    sudo softwareupdate -l
+
+会将存在的更新项目罗列出来
+
+输入：
+
+    sudo softwareupdate -i -a
+
+会自动下载并安装所有更新
+
+输入：
+
+    sudo softwareupdate -i PackageName
+
+会下载并安装指定更新项目，将PackageName改为更新项名称即可
+
+
+利用unix的一句超短命令“Purge”即可释放当前开启程序所占用的内存容量，耗时不过2分钟，亲测在打开三个应用后使用Purge立刻能释放600 M 内存耨～
+
+    Purge
+
+
+Mac OS X的时钟能够自动设置时间，但与格林威治时间还是稍有偏差的，OS X隐藏了一个时间校对工具“ntpdate”，我们输入命令行来调用“ntpdate”，就可以与苹果服务器取得联系获取准确时间：
+
+    sudo ntpdate -u time.apple.com
+
+输入管理员密码，即可显示当前时间与标准时间的偏差，此时电脑的时间也会被自动调准：
+
+    4 Jul 14:30:11 ntpdate[28267]: adjust time server 17.151.16.14 offset 0.000336 sec
+
+
+如果你喜欢每次打开Finder时文件都按图标方式排列，这该怎样设置呢？还是命令行喔：
+
+    defaults write com.apple.Finder FXPreferredViewStyle _**ooxx**_
+
+将命令最后的ooxx替换为以下单词：
+
+  * Nlsv – List
+  * icnv – Icon
+  * clmv – Column
+  * Flwv – Cover Flow
+
+这样就搞定咯，比如想要默认为列表形式就执行：
+
+    defaults write com.apple.Finder FXPreferredViewStyle Nlsv
+
+    killall Finder
