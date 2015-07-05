@@ -318,4 +318,3 @@ return "attached"
   * [Sharing Snippet Groups With Your Team](http://www.smilesoftware.com/help/TextExpander/sharegroups.html?_ga=1.113937031.1409188704.1418001042)
 
   * [](http://smilesoftware.com/blog/entry/never-forget-a-mail-attachment-using-textexpander)[Never forget a Mail attachment using TextExpander](http://smilesoftware.com/blog/entry/never-forget-a-mail-attachment-using-textexpander)
-
