@@ -15,6 +15,7 @@
   * [其他命令](mac9/te/t3.md)
 * [最佳应用](mac9/README.md)
   * [TextExpander](mac9/te/README.md)
+  * [iTerm2](mac9/it/README.md)
   * [Alfred](mac9/af/README.md)
     * [基础配置](mac9/af/ajc.md)
     * [Workflow](mac9/af/a2.md)
