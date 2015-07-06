@@ -1,0 +1,9 @@
+{
+    "name": "book",
+    "version": "0.0.0",
+    "dependencies": {
+        "gitbook-plugin-gitbook-plugin": "*",
+        "gitbook-plugin-gitbook-plugin-autocover": "*",
+        "gitbook-plugin-gitbook-theme-maxiang": "*"
+    }
+}

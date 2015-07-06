@@ -1,3 +1,5 @@
+# Alfred
+
 >小帽子是 Mac 平台上最为传奇的效率作品，誉为神兵利器毫不为过。其实这个领域当年的带头大哥是Quicksilver，一时风头无两。但是一个人在风头浪尖站太久就会倦怠，而且 QS 也没找到合适的盈利模式，结果被 Alfred 迎头赶上，等 QS 醒过来再发布新版本的时候，江山已经易主，Alfred 强势发布2.0，而且通过 Powerpack 模式的强大功能转化了很多免费用户，目前看来 Alfred 已经一骑绝尘了。
 
 *  安装（去 Google 吧）
@@ -25,24 +27,24 @@
 *  简单搜索：直接输入你要查询的内容，回车即可打开默认浏览器进行搜索。
 
 *  自定义搜索，这个稍微复杂些，打开设置窗口，点击Features-Custom Search，在右侧栏添加自定义搜索。举几个例子帮助大家理解下规则：
-    
+
     （1）搜索iOS App：
-     Search URL：itunes://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?term={query} 
-    Title：iOS App 
-    Keyword：ios 
-    
-    （2）搜索Mac App：   
-    Search URL：macappstore://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q={query}   
-    Title：Mac App   
-    Keyword：mac  
-    
-    设置完之后，呼出Alfred，输入mac dash或 ios 多看，看看什么效果  
-    
+     Search URL：itunes://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?term={query}
+    Title：iOS App
+    Keyword：ios
+
+    （2）搜索Mac App：
+    Search URL：macappstore://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q={query}
+    Title：Mac App
+    Keyword：mac
+
+    设置完之后，呼出Alfred，输入mac dash或 ios 多看，看看什么效果
+
     （3）翻译：
-    Search URL：`http://translate.google.cn/#auto/zh-CN/{query}` 
-    Title：英译中 
-    Keyword：en 
-    
+    Search URL：`http://translate.google.cn/#auto/zh-CN/{query}`
+    Title：英译中
+    Keyword：en
+
     设置完之后，呼出Alfred，输入en awesome，看看什么效果
 
 可以据此自定义各种快捷查询、翻译、打开特定网页等功能。
